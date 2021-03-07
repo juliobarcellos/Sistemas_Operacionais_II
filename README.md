@@ -14,38 +14,38 @@ Todas as aulas e exercícios foram feitos utilizando o virtualBox com uma imagem
 
 ## Informações gerais
 
-### [Praticas]()
+### [Praticas](https://github.com/juliobarcellos/Sistemas_Operacionais_II/tree/master/Praticas)
 Pasta contendo as práticas solicitadas durante as aulas de ShellScript.
 
-- [Pratica1]() Fazer uma função que escreva seu nome e chamar a função;
+- [Pratica1](Praticas/pratica1.sh) Fazer uma função que escreva seu nome e chamar a função;
 
-- [Pratica2]() Fazer uma função para realizar a divisão de um número por outro e retornar o valor;
+- [Pratica2](Praticas/pratica2.sh) Fazer uma função para realizar a divisão de um número por outro e retornar o valor;
 
-- [Pratica3]() Criar um script com uma variável e escrever ela na tela;
+- [Pratica3](Praticas/pratica3.sh) Criar um script com uma variável e escrever ela na tela;
 
-- [Pratica4]() Fazer um script que utilize todas as variáveis internas do shell;
+- [Pratica4](Praticas/pratica4.sh) Fazer um script que utilize todas as variáveis internas do shell;
 
-- [Pratica5]() Fazer um array com seu nome e exibir o primeiro nome e o último nome;
+- [Pratica5](Praticas/pratica5.sh) Fazer um array com seu nome e exibir o primeiro nome e o último nome;
 
-- [Pratica6]() Fazer um script que utiliza os operadores (++ -- ** + - / *);
+- [Pratica6](Praticas/pratica6.sh) Fazer um script que utiliza os operadores (++ -- ** + - / *);
 
-- [Pratica7]() Se seu RA (registro acadêmico) for par escreva na tela “Meu RA é par” caso contrário escreva na tela “Meu RA é Impar”;
+- [Pratica7](Praticas/pratica7.sh) Se seu RA (registro acadêmico) for par escreva na tela “Meu RA é par” caso contrário escreva na tela “Meu RA é Impar”;
 
-- [Pratica8]() Fazer um script para listar o diretório corrente de execução e exibir somente os arquivos que são .sh;
+- [Pratica8](Praticas/pratica8.sh) Fazer um script para listar o diretório corrente de execução e exibir somente os arquivos que são .sh;
 
-- [Pratica9]() Listar o diretório corrente e exibir o nome de todos os arquivos com menos de 10 caracteres (no nome);
+- [Pratica9](Praticas/pratica9.sh) Listar o diretório corrente e exibir o nome de todos os arquivos com menos de 10 caracteres (no nome);
 
-- [Pratica10]() Listar o diretório Desktop (arquivos e diretórios) e exibir o tipo de arquivo ou diretório;
+- [Pratica10](Praticas/pratica10.sh) Listar o diretório Desktop (arquivos e diretórios) e exibir o tipo de arquivo ou diretório;
  
-- [Pratica11]() Exibir todos os usuários logados no formato: Usuário: xxxxxx Onde xxxxx é o login do usuário;
+- [Pratica11](Praticas/pratica11.sh) Exibir todos os usuários logados no formato: Usuário: xxxxxx Onde xxxxx é o login do usuário;
 
-- [Pratica12]() Listar os grupos dos usuários, no formato: 
+- [Pratica12](Praticas/pratica12.sh) Listar os grupos dos usuários, no formato: 
 
         Usuário xxxxx percente aos grupos:
         -yyyyy
         -yyyyy
         
-- [Pratica13]() Para cada usuário criar a seguinte arvore de diretórios na posta home (do usuário):
+- [Pratica13](Praticas/pratica13.sh) Para cada usuário criar a seguinte arvore de diretórios na posta home (do usuário):
 
       ~/Faculdade/SistemasOperacionasi
       ~/Faculdade/LinguagemdeProgramacao
@@ -54,14 +54,14 @@ Pasta contendo as práticas solicitadas durante as aulas de ShellScript.
       ~/Diversao/Trabalhos
       ~/Diversao/TestesProgramacao
 
-- [Pratica14]() Pesquisar na web como usar o comando gzip. Criar um script para compactar a pasta ~ do usuário e salvar em /backup/nomedousuario.gz.
+- [Pratica14](Praticas/pratica14.sh) Pesquisar na web como usar o comando gzip. Criar um script para compactar a pasta ~ do usuário e salvar em /backup/nomedousuario.gz.
 
 
-### [Prova]()
+### [Prova](https://github.com/juliobarcellos/Sistemas_Operacionais_II/tree/master/Prova)
 
-- [Exercício 1]() Fazer um script que leia do termina o nome de um usuário e escreva na tela quais são os grupos que este pertence.
+- [Exercício 1](Prova/Ex1/grupos.sh) Fazer um script que leia do termina o nome de um usuário e escreva na tela quais são os grupos que este pertence.
 
-- [Exercício 2]() Criar um script que auxilie o usuário final a usar o linux, a ideia é que ele não tenha que decorar comandos, logo devemos exibir um menu simples que permita criar diretórios dentro da pasta home, fazer backups dos arquivos pessoais, limpar a pasta temporária, exemplo abaixo:
+- [Exercício 2](Prova/Ex2/menu.sh) Criar um script que auxilie o usuário final a usar o linux, a ideia é que ele não tenha que decorar comandos, logo devemos exibir um menu simples que permita criar diretórios dentro da pasta home, fazer backups dos arquivos pessoais, limpar a pasta temporária, exemplo abaixo:
 
       Assistente de Usuário
       1 - Criar um novo diretório
@@ -76,6 +76,6 @@ Pasta contendo as práticas solicitadas durante as aulas de ShellScript.
 Dada a opção o sistema pede alguns dados de forma humana e executa o comando.
 Toda alteração deve ser a partir da pasta do usuário corrente
 
-- [Exercício 3]() Fazer um script que pergunta o nome de um grupo e faz um backup de todos os usuários deste grupo (lembre-se que o backup deve ter o nome: backup-usuario-DD-MM-YYYY.tar.gz onde usuário é o login do usuário, DD é o dia da backup, MM é o mês da backup e YYYY é o ano da backup).
+- [Exercício 3](Prova/Ex3/backup.sh) Fazer um script que pergunta o nome de um grupo e faz um backup de todos os usuários deste grupo (lembre-se que o backup deve ter o nome: backup-usuario-DD-MM-YYYY.tar.gz onde usuário é o login do usuário, DD é o dia da backup, MM é o mês da backup e YYYY é o ano da backup).
 
-- [Exercício 4]() Fazer um script para criar uma pasta temporária em ~ e atribuir a permissão que somente o usuário dono do arquivo pode excluir o mesmo.
+- [Exercício 4](Prova/Ex4/pastaTemp.sh) Fazer um script para criar uma pasta temporária em ~ e atribuir a permissão que somente o usuário dono do arquivo pode excluir o mesmo.
